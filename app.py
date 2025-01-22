@@ -4,7 +4,7 @@ import  matplotlib.pyplot as plt
 import seaborn as sms
 
 
-st.sidebar.title("Whatsapp")
+st.sidebar.title("Whatsapp Chat Analyzer")
 uploaded_file = st.sidebar.file_uploader("Choose a file")
 if uploaded_file is not None:
     # To read file as bytes:
